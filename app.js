@@ -8,7 +8,7 @@ async function getWeather() {
   let icon = document.getElementById("icon"); // getting the element by id
   const apiKey = "3ba69b4cafcc48c0aca75139250301"; // api key
   let input = document.getElementById("input").value; // getting the value of the input field
-  const url = `http://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${input},Pakistan&aqi=yes`; // api url
+  const url = `https://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${input},Pakistan&aqi=yes`; // api url
   let response = await fetch(url); // fetching the data from the api
   let data = await response.json(); // converting the data into json
 
