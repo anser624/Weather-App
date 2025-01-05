@@ -57,7 +57,12 @@ button:hover{
     transform: scale(1.1);
     filter: invert(1);
 }
+.icon{
+    height: 120px;
+    width: 120px;
+}
 .weather{
+    text-align: left;
     border-radius: 2rem 0px;
     line-height: 30px;
     padding: 1rem;
@@ -65,10 +70,154 @@ button:hover{
     font-size: 1.5rem;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: 700;
-    /* color: white; */
-
     background-color: white;
 }
 .hide{
     display: none;
 };
+@media screen and (max-width: 768px){
+    h1{
+
+        font-size: 2rem;
+    }
+    .search input{
+        height: 6vh ;
+        padding: 10px ;
+        font-size: 1rem;
+    }
+    button{
+        padding: 5px 10px;
+        font-size: 1rem;
+    }
+    .weather{
+        border-radius: 0.7rem 0px;
+        padding: 0.5rem ;
+        line-height: 20px ;
+        font-size: 1rem;
+    }
+}
+@media screen and (max-width: 480px){
+    h1{
+        font-size: 1.5rem;
+    }
+    .search input{
+         height: 5vh ;
+        padding: 10px ; 
+        font-size: 0.8rem;
+    }
+    button{
+        padding: 5px 10px;
+        font-size: 0.8rem;
+    }
+    .icon{
+        height: 70px;
+        width: 70px;
+    }
+    .weather{
+        border-radius: 0.7rem 0px;
+        padding: 0.5rem ;
+        line-height: 15px ; 
+        font-size: 0.8rem;
+    }
+    
+}
+@media screen and (max-width: 320px){
+    h1{
+        font-size: 1rem;
+    }
+    .search input{
+        height: 4vh ;
+        padding: 10px ;
+        font-size: 0.5rem;
+    }
+    button{
+        padding: 5px 10px;
+        font-size: 0.5rem;
+    }
+    .icon{
+        height: 50px;
+        width: 50px;
+    }
+    .weather{
+        border-radius: 0.7rem 0px;
+        padding: 0.5rem ;
+        line-height: 12px ;
+        font-size: 0.5rem;
+    }
+    
+}
+@media screen and (max-width: 280px){
+    h1{
+        font-size: 0.8rem;
+    }
+    .search input{
+        height: 3vh ;
+        padding: 10px ;
+        font-size: 0.4rem;
+    }
+    button{
+        padding: 5px 10px;
+        font-size: 0.4rem;
+    }
+    .icon{
+        height: 40px;
+        width: 40px;
+    }
+    .weather{
+        border-radius: 0.7rem 0px;
+        padding: 0.5rem ;
+        line-height: 10px ;
+        font-size: 0.4rem;
+    }
+    
+}
+@media screen and (max-width: 240px){
+    h1{
+        font-size: 0.5rem;
+    }
+    .search input{
+        height: 2vh ;
+        padding: 10px ;
+        font-size: 0.3rem;
+    }
+    button{
+        padding: 5px 10px;
+        font-size: 0.3rem;
+    }
+    .icon{
+        height: 30px;
+        width: 30px;
+    }
+    .weather{
+        border-radius: 0.7rem 0px;
+        padding: 0.5rem ;
+        line-height: 10px ;
+        font-size: 0.3rem;
+    }
+    
+}
+@media screen and (max-width: 200px){
+    h1{
+        font-size: 0.3rem;
+    }
+    .search input{
+        height: 1vh ;
+        padding: 10px ;
+        font-size: 0.2rem;
+    }
+    button{
+        padding: 5px 10px;
+        font-size: 0.2rem;
+    }
+    .icon{
+        height: 20px;
+        width: 20px;
+    }
+    .weather{
+        border-radius: 0.7rem 0px;
+        padding: 0.5rem ;
+        line-height: 5px ;
+        font-size: 0.2rem;
+    }
+   
+}
